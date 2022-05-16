@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.My_GAME" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/dark_red</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/dark_red</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/dark_red</item>
+
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_red</item>
+        <item name="colorSecondaryVariant">@color/dark_red</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeOverlay.My_GAME.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/dark_red</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+        <item name="android:windowBackground">@color/dark_red</item>
+    </style>
+</resources>

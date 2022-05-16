@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="227dp"
+        android:layout_height="306dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894">
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="225dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#00897B"
+            android:text="@string/play"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="225dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#00897B"
+            android:text="@string/settings"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/highscoresButton"
+            android:layout_width="225dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#00897B"
+            android:text="@string/player_statsbtn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/helpButton"
+            android:layout_width="225dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#00897B"
+            android:text="@string/help"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="225dp"
+            android:layout_height="61dp"
+            android:backgroundTint="#00897B"
+            android:text="@string/exit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="403dp"
+        android:layout_height="344dp"
+        android:contentDescription="@string/fanned_cards"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="282dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="304dp"
+        android:text="@string/blackjack"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
